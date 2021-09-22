@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lesson_1</title>
 </head>
+
 <body>
     <div>
         <label for="tempcelc">Temperature in Celcium</label>
@@ -14,32 +16,32 @@
     </div>
 </body>
 <script>
- async function temperatureConvert() {
-     var celcium = document.getElementById("tempcelc").value;
-     var tf = (9/5) * celcium + 32;
-    alert("Temperature in Fahrenheit is : " + tf);  
-}
+    async function temperatureConvert() {
+        var celcium = document.getElementById("tempcelc").value;
+        var tf = (9 / 5) * celcium + 32;
+        alert("Temperature in Fahrenheit is : " + tf);
+    }
 </script>
 <script>
- var admin;
- var name = "Василий";
- admin = name;
- console.log(admin);
+    var admin;
+    var name = "Василий";
+    admin = name;
+    console.log(admin);
 </script>
 <script>
-    var eq1 = 10 + 10 + "10"; 
+    var eq1 = 10 + 10 + "10";
     var eq2 = 10 + "10" + 10;
     var eq3 = 10 + 10 + +"10";
     var eq4 = 10 / -"";
     var eq5 = 10 / +"2,5";
-    console.log({eq1,eq2,eq3,eq4,eq5});
+    console.log({ eq1, eq2, eq3, eq4, eq5 });
     /*
     1. Сумирует численные значения, все что в "" - происходит конканация на конце
     2. Не может сплюсовать все значения, все что в "" - происходит конканация в середине
     3. Складывает все нормально, выделяя из строки число, так как подходящий формат для операции +""
     4. Деление числа на пустую строку (объект только для чтения) вызывает бесконечность, минус из формулы
-    5. Неподходящий формат для операции +"" получаем NaN 
-    6. Выводим значения в консоль
+    5. Неподходящий формат для операции +"" получаем NaN
+    6. Выводим значения в консоль (объект);
     */
 </script>
 
